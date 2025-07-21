@@ -9,4 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
-//print(isPrime(num: 17))
+pat2(row: 2)
