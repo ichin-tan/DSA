@@ -9,4 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
-pat2(row: 2)
+pat6(row: 5)
