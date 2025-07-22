@@ -17,7 +17,7 @@ func pat14(row: Int) {
         
         var start = i
         
-        for _ in 1...row {
+        for _ in 0..<row {
             
             let asci = Unicode.Scalar(start + 65) ?? Unicode.Scalar(0)
             start += 1
