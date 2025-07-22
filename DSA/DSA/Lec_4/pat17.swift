@@ -19,7 +19,7 @@ func pat17(row: Int) {
     for i in 1...row {
         
         var start = i
-        for j in 1...i {
+        for _ in 1...i {
             
             let asci = Unicode.Scalar(start + 65 - 1) ?? Unicode.Scalar(0)
             print(asci!, terminator: "")
